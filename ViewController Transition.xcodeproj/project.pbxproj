@@ -13,6 +13,7 @@
 		EB30889621E79F5500852E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB30889521E79F5500852E18 /* Assets.xcassets */; };
 		EB30889921E79F5500852E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30889721E79F5500852E18 /* LaunchScreen.storyboard */; };
 		EB3088A321E7A24B00852E18 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3088A221E7A24B00852E18 /* RedViewController.swift */; };
+		EB3088A521E7A92600852E18 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3088A421E7A92600852E18 /* Animator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB30889821E79F5500852E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB30889A21E79F5500852E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB3088A221E7A24B00852E18 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		EB3088A421E7A92600852E18 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EB30889721E79F5500852E18 /* LaunchScreen.storyboard */,
 				EB30889A21E79F5500852E18 /* Info.plist */,
 				EB3088A221E7A24B00852E18 /* RedViewController.swift */,
+				EB3088A421E7A92600852E18 /* Animator.swift */,
 			);
 			path = "ViewController Transition";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3088A521E7A92600852E18 /* Animator.swift in Sources */,
 				EB30889121E79F5400852E18 /* ViewController.swift in Sources */,
 				EB3088A321E7A24B00852E18 /* RedViewController.swift in Sources */,
 				EB30888F21E79F5400852E18 /* AppDelegate.swift in Sources */,

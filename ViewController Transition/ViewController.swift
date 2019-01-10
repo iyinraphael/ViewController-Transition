@@ -8,16 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        segue.destination.transitioningDelegate = self 
+    }
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return animator
     }
 
     @IBOutlet weak var label: UILabel!
     
-    @IBAction func show(_ sender: Any) {
-        
-    }
+    let animator = Animator()
 }
 

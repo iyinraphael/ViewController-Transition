@@ -32,7 +32,6 @@
                                         <rect key="frame" x="30" y="38" width="38" height="30"/>
                                         <state key="normal" title="Show"/>
                                         <connections>
-                                            <action selector="show:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaX-Ik-f4g"/>
                                             <segue destination="nuR-XB-rej" kind="presentation" id="qko-8Z-jLC"/>
                                         </connections>
                                     </button>
